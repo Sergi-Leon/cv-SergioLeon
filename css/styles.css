@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    /* font */
+    font-family: "Averta CY", sans-serif;
+}
+
+body {
+    margin: 0;
+    font-size: 28px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    font-size: 2vw;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: whitesmoke;
+}
+
+#header {
+    text-align: center;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relleno-lat {
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+.relleno-col {
+    padding: 10px;
+}
+
+.imagen {
+    width: 100%;
+}
+
+.relleno-extra {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#header h1 {
+    font-size: 8vw;
+}
+
+#section-1 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#section-1 h1 {
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+}
+
+#section-1 img {
+    width: 50%;
+    height: 50%;
+}
+
+#section-1 p {
+    font-size: 1vw;
+    color: white;
+}
+
+#section-2 h2 {
+    font-size: 2vw;
+    color: black;
+    text-align: center;
+}
+
+#section-2 p {
+    font-size: 1vw;
+    text-align: justify;
+}
+
+#section-2 img {
+    padding-top: 25%;
+}
+
+#section-2 {
+    height: 100%;
+    width: 100%;
+}
+
+#section-3 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#section-3 h2 {
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+}
+
+#section-3 p {
+    font-size: 1vw;
+    color: white;
+    text-align: justify;
+}
+
+#section-4 {
+    height: 100%;
+    width: 100%;
+}
+
+#section-4 h2 {
+    font-size: 2vw;
+    color: black;
+    text-align: center;
+}
+
+#section-4 p {
+    font-size: 1vw;
+    text-align: justify;
+}
+
+#section-5 {
+    height: 100%;
+    width: 100%;
+}
+
+.column2 {
+    width: 50%;
+    float: left;
+}
+
+.padding-derecha-extra {
+    padding-right: 30px;
+}
+
+.padding-izquierda-extra {
+    padding-left: 30px;
+}
+
+@media screen and (max-width:750px) {
+    .column2 {
+        width: 100%;
+    }
+    .flex {
+        display: block;
+    }
+    #section-1 h2 {
+        font-size: 30px;
+    }
+    #section-2 h2 {
+        font-size: 30px;
+    }
+    #section-3 h2 {
+        font-size: 30px;
+    }
+    #section-4 h2 {
+        font-size: 30px;
+    }
+}
