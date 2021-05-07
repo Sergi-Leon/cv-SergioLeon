@@ -46,12 +46,13 @@ li a {
 }
 
 li a:hover {
-    background-color: whitesmoke;
+    background-color: lightgreen;
 }
 
 #header {
     text-align: center;
-    height: 100vh;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
 }
 
 .flex {
@@ -74,7 +75,6 @@ li a:hover {
 }
 
 .relleno-extra {
-    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -88,7 +88,7 @@ li a:hover {
     background-color: black;
 }
 
-#section-1 h1 {
+#section-1 h2 {
     font-size: 3vw;
     color: white;
     text-align: center;
@@ -111,7 +111,7 @@ li a:hover {
 }
 
 #section-2 p {
-    font-size: 1vw;
+    font-size: 1.5vw;
     text-align: justify;
 }
 
@@ -122,6 +122,11 @@ li a:hover {
 #section-2 {
     height: 100%;
     width: 100%;
+}
+
+#section-2 iframe {
+    width: 100%;
+    height: 25vw;
 }
 
 #section-3 {
@@ -137,7 +142,7 @@ li a:hover {
 }
 
 #section-3 p {
-    font-size: 1vw;
+    font-size: 1.5vw;
     color: white;
     text-align: justify;
 }
@@ -154,13 +159,23 @@ li a:hover {
 }
 
 #section-4 p {
-    font-size: 1vw;
+    font-size: 1.5vw;
     text-align: justify;
 }
 
-#section-5 {
+#footer {
     height: 100%;
     width: 100%;
+    background-color: black;
+    color: white;
+    padding-bottom: 60px;
+}
+
+#footer select {
+    color: white;
+    border: black;
+    background-color: black;
+    font-size: 1.5vw;
 }
 
 .column2 {
@@ -183,16 +198,60 @@ li a:hover {
     .flex {
         display: block;
     }
+    .relleno-lat {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    ul {
+        font-size: 15px;
+    }
     #section-1 h2 {
         font-size: 30px;
+    }
+    #section-1 p {
+        font-size: 16px;
+    }
+    #section-1 img {
+        height: 80%;
+        width: 100%;
     }
     #section-2 h2 {
         font-size: 30px;
     }
+    #section-2 p {
+        font-size: 16px;
+    }
+    #section-2 iframe {
+        height: 60vw;
+        width: 100%;
+    }
     #section-3 h2 {
         font-size: 30px;
     }
+    #section-3 p {
+        font-size: 16px;
+    }
+    #section-3 iframe {
+        width: 100%;
+        height: 70%;
+    }
     #section-4 h2 {
         font-size: 30px;
+    }
+    #section-4 p {
+        font-size: 16px;
+    }
+    #section-4 iframe {
+        width: 100%;
+        height: 70%;
+    }
+    #section-4 .padding-izquierda-extra {
+        padding: 10px 30px 10px 10px;
+    }
+    #footer h5 {
+        font-size: 16px;
+    }
+    #footer select {
+        font-size: 10px;
     }
 }
